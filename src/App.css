@@ -1,8 +1,28 @@
 .App {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: grid; 
 }
 
-.column {
+.cl-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  /* padding: 20px; */
+  padding: 20px 40px 20px 40px;
+  font-size: 30px;
   text-align: center;
+}
+
+input {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+select {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
